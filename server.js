@@ -1,7 +1,7 @@
 const express = require("express");
 const mysql = require("mysql2");
 const cors = require("cors");
-const bcrypt = require("bcrypt"); // For password hashing
+const bcrypt = require("bcryptjs"); // For password hashing
 
 const app = express();
 app.use(express.json());
